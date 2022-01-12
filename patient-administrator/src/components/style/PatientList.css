@@ -1,0 +1,12 @@
+.patientList{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    height: 70rem;
+    overflow: scroll;
+    
+}
+
+.patientList::-webkit-scrollbar{
+   width: 0;
+}

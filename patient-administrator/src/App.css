@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+:root {
+	--color-white: rgba(255,255,255,1);
+	--color-gray: rgba(239,239,239,1);
+	--color-blue: rgba(40,75,99,1);
+	--color-blue-ligth: rgba(0,134,225,1);
+	--color-place-holder: rgba(40,75,99,0.500);
+	--color-blue-hover: rgba(0,101,171,1);
+	--color-red: rgba(255,94,94,1);
+	--color-red-hover: rgba(211,71,71,1);
+    --shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-size: 16px;
+    margin:0;
+    font-family: 'Kanit', sans-serif;
+    background-color: var(--color-gray);
+}
+textarea{
+    font-family: 'Kanit', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 2rem;
+}
+
+h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]{
+    border: none;
+    cursor: pointer;
+}
+input{
+    border: none;
+}
+textarea{
+    border: none;
+}
+fieldset{
+    border: none;
+}

@@ -1,0 +1,53 @@
+.patient-card{
+    background-color: var(--color-white);
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+}
+.patient-information{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: 3rem;
+}
+.information{
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.information p{
+    color: var(--color-blue-ligth);
+}
+.information span{
+    color: var(--color-blue);
+}
+
+.information img{
+    width: 2.5rem;
+}
+.actions{
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    width: 20rem;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    color: var(--color-white);
+    font-weight: bold;
+    transition: .2s ease;
+}
+.button-blue{
+    background-color: var(--color-blue-ligth);
+}
+.button-red{
+    background-color: var(--color-red);
+}
+.button-blue:hover{
+    background-color: var(--color-blue-hover);
+}
+.button-red:hover{
+    background-color: var(--color-red-hover);
+}
